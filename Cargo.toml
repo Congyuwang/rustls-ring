@@ -1,0 +1,24 @@
+[package]
+name = "rustls-ring"
+version = "0.23.16"
+edition = "2021"
+
+[dependencies]
+rustls = { version = "0.23.16", default-features = false }
+
+[features]
+default = ["ring", "log", "logging", "std", "tls12"]
+aws_lc_rs = []
+log = ["rustls/log"]
+logging = ["rustls/logging"]
+std = ["rustls/std"]
+tls12 = ["rustls/tls12"]
+aws-lc-rs = []
+brotli = ["rustls/brotli"]
+custom-provider = []
+fips = ["rustls/fips"]
+hashbrown = ["rustls/hashbrown"]
+read_buf = ["rustls/read_buf"]
+ring = ["rustls/ring"]
+rustversion = ["rustls/rustversion"]
+zlib = ["rustls/zlib"]
