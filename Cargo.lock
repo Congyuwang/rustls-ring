@@ -427,13 +427,13 @@ dependencies = [
 name = "rustls"
 version = "0.23.16"
 dependencies = [
- "rustls 0.23.16 (git+https://github.com/rustls/rustls?rev=276eb7442ccbbe3d04fb2f21fb4b0c0ac3c70318)",
+ "rustls 0.23.16 (git+https://github.com/rustls/rustls?tag=v/0.23.16)",
 ]
 
 [[package]]
 name = "rustls"
 version = "0.23.16"
-source = "git+https://github.com/rustls/rustls?rev=276eb7442ccbbe3d04fb2f21fb4b0c0ac3c70318#276eb7442ccbbe3d04fb2f21fb4b0c0ac3c70318"
+source = "git+https://github.com/rustls/rustls?tag=v/0.23.16#276eb7442ccbbe3d04fb2f21fb4b0c0ac3c70318"
 dependencies = [
  "aws-lc-rs",
  "brotli",
