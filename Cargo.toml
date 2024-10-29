@@ -4,7 +4,7 @@ version = "0.23.16"
 edition = "2021"
 
 [dependencies]
-rustls = { git = "https://github.com/rustls/rustls", rev = "276eb7442ccbbe3d04fb2f21fb4b0c0ac3c70318", default-features = false }
+rustls = { git = "https://github.com/rustls/rustls", tag = "v/0.23.16", default-features = false }
 
 [features]
 default = ["ring", "log", "logging", "std", "tls12"]
