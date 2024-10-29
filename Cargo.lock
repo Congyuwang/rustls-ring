@@ -426,6 +426,13 @@ dependencies = [
 [[package]]
 name = "rustls"
 version = "0.23.16"
+dependencies = [
+ "rustls 0.23.16 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rustls"
+version = "0.23.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "eee87ff5d9b36712a58574e12e9f0ea80f915a5b0ac518d322b24a465617925e"
 dependencies = [
@@ -449,13 +456,6 @@ name = "rustls-pki-types"
 version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "16f1201b3c9a7ee8039bcadc17b7e605e2945b27eee7631788c1bd2b0643674b"
-
-[[package]]
-name = "rustls-ring"
-version = "0.23.16"
-dependencies = [
- "rustls",
-]
 
 [[package]]
 name = "rustls-webpki"
