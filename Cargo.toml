@@ -1,10 +1,10 @@
 [package]
 name = "rustls"
-version = "0.23.16"
+version = "0.23.18"
 edition = "2021"
 
 [dependencies]
-rustls = { git = "https://github.com/rustls/rustls", tag = "v/0.23.16", default-features = false }
+rustls = { git = "https://github.com/rustls/rustls", tag = "v/0.23.18", default-features = false }
 
 [features]
 default = ["ring", "log", "logging", "std", "tls12"]
